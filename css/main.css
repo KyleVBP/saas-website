@@ -37,7 +37,7 @@ h1 {
   padding: .75em;
   text-decoration: none;
   color: #fff;
-  background-color: #f0746c;
+  background-color: #e7423c;
 }
 
 .nav a:hover {
@@ -98,7 +98,7 @@ h1 {
 }
 
 .banner-btn {
-  background-color: #f0746c;
+  background-color: #e7423c;
   border: 3px solid #e7423c;
   border-radius: 20px;
 }
@@ -160,7 +160,7 @@ h2 {
 }
 
 .banner-s-btn {
-  background-color: #f0746c;
+  background-color: #e7423c;
   border: 3px solid #e7423c;
   border-radius: 20px;
   position: absolute;
@@ -233,7 +233,7 @@ footer p {
     padding: .75em;
     text-decoration: none;
     color: #fff;
-    background-color: #f0746c;
+    background-color: #e7423c;
     border-radius: 10px;
   }
 
