@@ -201,3 +201,85 @@ footer {
 footer p {
   margin: 0;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    clear: none;
+    border-top: 0;
+    float: right;
+  }
+
+  .nav a {
+    display: block;
+    margin: .45em .25em .25em .1em;
+    padding: .75em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f0746c;
+    border-radius: 10px;
+  }
+
+  .nav a:hover {
+    color: #282828;
+    background-color: #fff;
+  }
+
+  .nav li {
+    border-bottom: 0px;
+    display: inline-block;
+  }
+
+  .nav li:last-child {
+    border-bottom: 0px;
+  }
+
+  .nav-check {
+    position: absolute;
+    top: -3em;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: block;
+  }
+
+  .nav-label {
+    cursor: pointer;
+  }
+
+  .nav-check:checked ~ .nav-label {
+    background-color: #e7423c;
+  }
+
+  .nav-open {
+    display: none;
+  }
+
+  .nav-close {
+    display: none;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-open {
+    display: block;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .icon-1 {
+    width: 200px;
+  }
+
+  .nav {
+    margin: .25em .25em .25em .1em;
+  }
+
+}
