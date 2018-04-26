@@ -37,7 +37,7 @@ h1 {
   padding: .75em;
   text-decoration: none;
   color: #fff;
-  background-color: #e7423c;
+  background-color: #f0746c;
 }
 
 .nav a:hover {
@@ -98,7 +98,7 @@ h1 {
 }
 
 .banner-btn {
-  background-color: #e7423c;
+  background-color: #f0746c;
   border: 3px solid #e7423c;
   border-radius: 20px;
 }
@@ -160,7 +160,7 @@ h2 {
 }
 
 .banner-s-btn {
-  background-color: #e7423c;
+  background-color: #f0746c;
   border: 3px solid #e7423c;
   border-radius: 20px;
   position: absolute;
@@ -211,8 +211,15 @@ footer p {
 
 .review {
   background-color: #434343;
-  border-bottom: 5px solid #282828;
   overflow: hidden;
+}
+
+.review-text {
+  color: #434343;
+}
+
+.check-text {
+  color: #e7423c;
 }
 
 @media only screen and (min-width: 38em) {
@@ -233,7 +240,7 @@ footer p {
     padding: .75em;
     text-decoration: none;
     color: #fff;
-    background-color: #e7423c;
+    background-color: #f0746c;
     border-radius: 10px;
   }
 
