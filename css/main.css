@@ -1,12 +1,6 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #fff;
 }
 
@@ -21,7 +15,7 @@ header {
 }
 
 h1 {
-  font-family: 'Ubuntu', serif;
+  font-family: "Ubuntu", serif;
   color: #fff;
   margin: 0;
 }
@@ -61,7 +55,7 @@ h1 {
 }
 
 .nav li:last-child {
-  border-bottom: 0px;
+  border-bottom: 0;
 }
 
 .nav-check {
@@ -105,7 +99,7 @@ h1 {
   transform: translateX(-50%);
   color: #fff;
   text-align: center;
-    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 8px rgba(0, 0, 0, .6);
 }
 
 .banner-btn {
@@ -143,9 +137,9 @@ h2 {
 }
 
 .banner-text-s {
-  background-color: rgba(240,116,110,0.6);
-  border: 3px solid rgba(231,66,60,0.6);
-  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  background-color: rgba(240, 116, 110, .6);
+  border: 3px solid rgba(231, 66, 60, .6);
+  text-shadow: 0 0 8px rgba(0, 0, 0, .6);
   border-radius: 20px;
   position: absolute;
   top: 30%;
@@ -183,7 +177,7 @@ h2 {
 }
 
 .banner-title {
-  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   width: 100%;
 }
 
@@ -235,12 +229,12 @@ footer p {
   }
 
   .nav li {
-    border-bottom: 0px;
+    border-bottom: 0;
     display: inline-block;
   }
 
   .nav li:last-child {
-    border-bottom: 0px;
+    border-bottom: 0;
   }
 
   .nav-check {
@@ -274,6 +268,7 @@ footer p {
 
   .nav-check:checked ~ .nav-label .nav-close {
     display: block;
+  }
 
 }
 

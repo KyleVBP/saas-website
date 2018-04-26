@@ -12,15 +12,20 @@
 </head>
 <body>
 
-  <header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
 
     <div>
 
       <a href="index.html">
-        <img class="icon-1 left pad-t-1-4 pad-b-1-4" src="images/logo-1.svg" alt="">
+        <img class="icon-1 left pad-t-1-4 pad-b-1-4" src="images/logo-1.svg" alt="Spotify Logo">
       </a>
 
-      <nav>
+      <nav role="navigation" id="nav" tabindex="0">
         <input type="checkbox" class="nav-check" id="nav-check">
         <label class="nav-label hide-custom-input right" for="nav-check">
           <img class="nav-open icon i-64" src="images/nav-btn.svg" alt="Open Navigation">
@@ -36,7 +41,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
 
     <div class="banner">
       <div>
@@ -55,19 +60,19 @@
 
           <li class="card unit xs-1 s-1 m-1 l-1-3 text-center push-2">
             <h2 class="not-bold gutter-2 pad-t">Discover Music</h2>
-            <img class="icon i-128" src="images/icon-note.svg" alt="">
+            <img class="icon i-128" src="images/icon-note.svg" alt="Music Note Icon">
             <p class="card-text gutter-1-4">Check out all new popular songs by current trending artists, or playlists created by other users.</p>
           </li>
 
           <li class="card unit xs-1 s-1 m-1 l-1-3 text-center push-2 card-2">
             <h2 class="not-bold gutter-2 pad-t">Simple Interface</h2>
-            <img class="icon i-128" src="images/icon-plat.svg" alt="">
+            <img class="icon i-128" src="images/icon-plat.svg" alt="Devices Icon">
             <p class="card-text gutter-1-4">Our interface is friendly to users switching from other music streaming platforms!</p>
           </li>
 
           <li class="card unit xs-1 s-1 m-1 l-1-3 text-center push-2">
             <h2 class="not-bold gutter-2 pad-t">User Experience</h2>
-            <img class="icon i-128" src="images/icon-ppl.svg" alt="">
+            <img class="icon i-128" src="images/icon-ppl.svg" alt="People Icon">
             <p class="card-text gutter-1-4">Read an array of reviews for our product, averaging a 4.5 star rating!</p>
           </li>
 
@@ -113,7 +118,7 @@
 
     </section>
 
-    <footer class="micro pad-t-1-4 pad-b-1-4 ">
+    <footer role="contentinfo" class="micro pad-t-1-4 pad-b-1-4 ">
       <p>© 2018 Spotify</p>
       <p>Created By: Kyle Pereira</p>
     </footer>
