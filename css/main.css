@@ -209,6 +209,12 @@ footer p {
   color: #434343;
 }
 
+.review {
+  background-color: #434343;
+  border-bottom: 5px solid #282828;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav {
