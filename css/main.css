@@ -1,11 +1,6 @@
 html {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   background-color: #fff;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 header {
@@ -15,7 +10,7 @@ header {
 }
 
 h1 {
-  font-family: "Ubuntu", serif;
+  font-family: Ubuntu, serif;
   color: #fff;
   margin: 0;
 }
@@ -177,7 +172,7 @@ h2 {
 }
 
 .banner-title {
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 8px rgba(0, 0, 0, .6);
   width: 100%;
 }
 
@@ -199,6 +194,19 @@ footer p {
 
 .banner-side {
   background-color: #282828;
+}
+
+.form {
+  border-bottom: 5px solid #282828;
+  color: #fff;
+}
+
+.form-fix {
+  display: inline-block;
+}
+
+.input-text {
+  color: #434343;
 }
 
 @media only screen and (min-width: 38em) {
@@ -268,6 +276,15 @@ footer p {
 
   .nav-check:checked ~ .nav-label .nav-close {
     display: block;
+  }
+
+  .form-fix {
+    max-width: 45%;
+  }
+
+  .option-fix {
+    max-width: 90%;
+    display: inline-block;
   }
 
 }
